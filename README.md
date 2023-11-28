@@ -1,6 +1,20 @@
-# CodigosAvulsos
-Um repositorio onde tem de tudo, desde codigos feitos até finalizados. Uma bagunça...
 
+
+# CodigosAvulsos
+
+    
+Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em suma são apenas para diversão e eu não acho que os codigos aqui mereçam um repositorio para eles. Apenas um lugar de diversão com codigos simples...
+
+<br>
+
+<p align="center">
+ <img src="https://media0.giphy.com/media/3knKct3fGqxhK/giphy.gif?cid=ecf05e47w498vsbsvlk5z3op5n5mw09as6hildd9cd31k769&ep=v1_gifs_search&rid=giphy.gif&ct=g">
+</p>
+
+
+</div>
+
+<br>
 
 > ### CALCULADORA DE IMC ( C++ )
 
