@@ -2,8 +2,7 @@
 Um repositorio onde tem de tudo, desde codigos feitos até finalizados. Uma bagunça...
 
 
-> ### CALCULADORA DE IMC
-    C++ ->
+> ### CALCULADORA DE IMC ( C++ )
 
 
     #include <iostream>
@@ -39,7 +38,48 @@ Um repositorio onde tem de tudo, desde codigos feitos até finalizados. Uma bagu
            cout << "Obesidade Morbida";
        }
     }
+    
+<br>
 
+> ### PEDRA PAPEL TESOURA ( C++ )
+    
+    #include <iostream>
+    #include <cstdlib>
+    using namespace std;
+    //0 - pedra, 1 - papel, 2 - tesoura
+    int main() {
+        
+        int jogadaUsuario;
+        cout << "0 - Pedra\n1 - Papel\n2 - Tesoura\n -> ";
+        cin >> jogadaUsuario;
+        
+        int jogadaPc=rand()%3;
+        
+        if(jogadaUsuario==0 && jogadaPc==2){
+            cout << "Você Ganhou\nO seu Pc jogou Tesoura e você Pedra e foi derrotado.";
+        }
+        else if(jogadaUsuario==1 && jogadaPc==0){
+            cout << "Você Ganhou\nO seu Pc jogou Pedra e você Papel e foi derrotado.";
+        }
+        else if(jogadaUsuario==2 && jogadaPc==1){
+            cout << "Você Ganhou\nO seu Pc jogou Papel e você Tesoura e foi derrotado.";
+        }
+        
+        else if(jogadaUsuario==0 && jogadaPc==1){
+            cout << "Você Perdeu\nO seu Pc jogou Papel e você Pedra e foi vencedor.";
+        }
+        
+        else if(jogadaUsuario==1 && jogadaPc==2){
+            cout << "Você Perdeu\nO seu Pc jogou Tesoura e você Papel e foi vencedor.";
+        }
+        
+        else if(jogadaUsuario==2 && jogadaPc==0){
+            cout << "Você Perdeu\nO seu Pc jogou Pedra e você Tesoura e foi vencedor.";
+        }
+        
+    
+        return 0;
+    }
     
 
   ### ideias de projetos...
