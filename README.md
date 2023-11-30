@@ -94,7 +94,61 @@ Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em s
     
         return 0;
     }
-    
+<br>
+
+> ???? ( C++ )
+           
+        #include <iostream>
+        using namespace std;
+        int main() {
+           double peso; 
+           cout<<"Quanto kilos seu cachorro pesa? "; 
+          
+           cin>>peso;
+           
+           if(peso>=1 && peso<=3){
+               cout<<"60 gramas por dia! ";
+           }
+           else if(peso>3 && peso<=5){
+               cout<<"de 60 a 85 gramas por dia";
+           }
+           
+           else if(peso>5 && peso<=7){
+               cout<<"de 8 a 110 gramas por dia";
+           }
+           
+           else if(peso>7 && peso<=10){
+               cout<<"de 110 a 145 gramas por dia";
+           }
+           
+           else if(peso>10 && peso<=25){
+               cout<<"de 110 a 145 gramas por dia";
+           }
+           
+           else if(peso>10 && peso<=25){
+               cout<<"de 110 a 145 gramas por dia";
+           }
+           
+           else if(peso>25 && peso<=45){
+               cout<<"de 110 a 145 gramas por dia";
+           }
+           
+           else if(peso>45 && peso<=60){
+               cout<<"de 110 a 145 gramas por dia";
+           }
+           
+           else if(peso>60 && peso<=70){
+               cout<<"de 110 a 145 gramas por dia";
+           }
+           else if(peso<1){
+               cout<<"💀";
+           }
+           
+           else{
+               cout<<"ATOCHA COMIDA NESSA PORRA";
+           }
+            return 0;
+        }
 
   ### ideias de projetos...
   01 - Uma api de compilador para colocar aqui nesse repositorio... <br>
