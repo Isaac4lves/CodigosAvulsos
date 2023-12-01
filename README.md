@@ -4,6 +4,11 @@
 
     
 Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em suma são apenas para diversão e eu não acho que os codigos aqui mereçam um repositorio para eles. Apenas um lugar de diversão com codigos simples...
+ Existe um sistema de organização! Cada cor representa um Codigo: <br>
+ 🔴 -  Simples que foi feito por diversão.<br>
+ 🔵 -  Simples que pode ser melhorado.<br>
+ 🟢 -  Que pode ficar mais complexo.<br>
+ 🟡 -  Que ficou mais complexo.
 
 <br>
 
@@ -16,7 +21,7 @@ Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em s
 
 <br>
 
-> ### CALCULADORA DE IMC ( C++ )
+> ### 🔴 CALCULADORA DE IMC ( C++ )
 
 
     #include <iostream>
@@ -55,7 +60,7 @@ Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em s
     
 <br>
 
-> ### PEDRA PAPEL TESOURA ( C++ )
+> ### 🔴 PEDRA PAPEL TESOURA ( C++ )
     
     #include <iostream>
     #include <cstdlib>
@@ -96,7 +101,7 @@ Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em s
     }
 <br>
 
-> ???? ( C++ )
+> ### 🔵 QUANTO SEU CACHORRO COME? ( C++ )
            
         #include <iostream>
         using namespace std;
@@ -149,6 +154,30 @@ Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em s
            }
             return 0;
         }
+
+> ### 🟢 GERADOR DE DESAFIOS DE PROGRAMAÇÃO. ( Python )
+<a href="https://drive.google.com/file/d/1FLr83BjWxXjLASorpoYgiLaFdgefc3zR/view?usp=drive_link">Link para baixar o EXE</a>
+         
+        PalavraChave = input("\nFale um assunto para escolhermos um desafio \n-> ")
+        LinguagemEscolhida = input("\nLinguagem que deseja usar no codigo \n-> ")
+        
+        from openai import OpenAI
+        
+        client = OpenAI(api_key="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")
+        chat_completion = client.chat.completions.create(
+            messages=[
+            {
+            "role": "user",
+            "content": f"gere um desafio para mim sobre programação a respeito de {PalavraChave} na linguagem de programação {LinguagemEscolhida}.",
+            }
+            ],
+            model="gpt-3.5-turbo",
+            )
+        print("\n"+chat_completion.choices[0].message.content, 'green')
+        
+        print("\nPressione Enter para fechar a janela.")
+        input()
+             
 
   ### ideias de projetos...
   01 - Uma api de compilador para colocar aqui nesse repositorio... <br>
