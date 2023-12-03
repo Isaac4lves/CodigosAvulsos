@@ -178,7 +178,179 @@ Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em s
         
         print("\nPressione Enter para fechar a janela.")
         input()
-             
+
+> ### 🔵 DIGITAL ROOT ( Python )
+    a=None
+    i=0
+    Grelo=0
+    print("[numero maximo < 100.000]\n")
+    Noom=input("-> ")
+    NumRaiz=Noom
+    NumRaiz=int(NumRaiz)
+    
+    
+    NumRaiz=str(NumRaiz)
+        
+    for e in list(NumRaiz) :
+        i=i+1
+        
+    i=i-1
+    primeiro = int(NumRaiz[0])
+    ultimo = int(NumRaiz[i])
+    
+        
+    if i == 1:
+        soma=(primeiro+ultimo)
+        print(f"{primeiro}+{ultimo}={soma}")
+        
+    elif i == 2:
+        segundo = int(NumRaiz[1])
+        soma=(primeiro+segundo+ultimo)
+        print(f"{primeiro}+{segundo}+{ultimo}={soma}")
+                
+    elif i == 3:
+        terceiro = int(NumRaiz[2])
+        segundo = int(NumRaiz[1])
+        
+        soma = (primeiro+segundo+terceiro+ultimo)
+        print(f"{primeiro}+{segundo}+{terceiro}+{ultimo}={soma}")
+            
+    elif i == 4:
+        quarto = int(NumRaiz[3])
+        terceiro = int(NumRaiz[2])
+        segundo = int(NumRaiz[1])
+            
+        soma = (primeiro+segundo+terceiro+quarto+ultimo)
+        print(f"{primeiro}+{segundo}+{terceiro}+{quarto}+{ultimo}={soma}")
+              
+    elif i == 5:
+        quinto = int(NumRaiz[4])
+        quarto = int(NumRaiz[3])
+        terceiro = int(NumRaiz[2])
+        segundo = int(NumRaiz[1])
+            
+        soma = (primeiro+segundo+terceiro+quarto+quinto+ultimo)
+        print(f"{primeiro}+{segundo}+{terceiro}+{quarto}+{quinto}+{ultimo}={soma}")
+          
+    elif i == 6:
+        sexto = int(NumRaiz[5])
+        quinto = int(NumRaiz[4])
+        quarto = int(NumRaiz[3])
+        terceiro = int(NumRaiz[2])
+        segundo = int(NumRaiz[1])
+            
+        soma = (primeiro+segundo+terceiro+quarto+quinto+sexto+ultimo)
+        print(f"{primeiro}+{segundo}+{terceiro}+{quarto}+{quinto}+{sexto}+{ultimo}={soma}")
+       
+            
+    if soma>=10:
+        soma=str(soma)
+        i=0
+        
+        for f in list(soma) :
+            i=i+1
+            
+        i=i-1
+        primeiro = int(soma[0])
+        ultimo = int(soma[i])
+        
+        if i == 1:
+            somaII=(primeiro+ultimo)
+            print(f"{primeiro}+{ultimo}={somaII}")
+            
+        elif i == 2:
+            segundo = int(soma[1])
+            somaII=(primeiro+segundo+ultimo)
+            print(f"{primeiro}+{segundo}+{ultimo}={somaII}")
+                    
+        elif i == 3:
+            terceiro = int(soma[2])
+            segundo = int(soma[1])
+            
+            somaII = (primeiro+segundo+terceiro+ultimo)
+            print(f"{primeiro}+{segundo}+{terceiro}+{ultimo}={somaII}")
+                
+        elif i == 4:
+            quarto = int(soma[3])
+            terceiro = int(soma[2])
+            segundo = int(soma[1])
+                
+            somaII = (primeiro+segundo+terceiro+quarto+ultimo)
+            print(f"{primeiro}+{segundo}+{terceiro}+{quarto}+{ultimo}={somaII}")  
+            
+        elif i == 5:
+            quinto = int(soma[4])
+            quarto = int(soma[3])
+            terceiro = int(soma[2])
+            segundo = int(soma[1])
+                
+            somaII = (primeiro+segundo+terceiro+quarto+quinto+ultimo)
+            print(f"{primeiro}+{segundo}+{terceiro}+{quarto}+{quinto}+{ultimo}={somaII}")
+              
+        elif i == 6:
+            sexto = int(soma[5])
+            quinto = int(soma[4])
+            quarto = int(soma[3])
+            terceiro = int(soma[2])
+            segundo = int(soma[1])
+                
+            somaII = (primeiro+segundo+terceiro+quarto+quinto+sexto+ultimo)
+            print(f"{primeiro}+{segundo}+{terceiro}+{quarto}+{quinto}+{sexto}+{ultimo}={somaII}")
+            
+                   
+        if somaII>=10:
+            somaII=str(somaII)
+            i=0
+            
+            for f in list(somaII) :
+                i=i+1
+                
+            i=i-1
+            primeiro = int(somaII[0])
+            ultimo = int(somaII[i])
+            
+            if i == 1:
+                somaIII=(primeiro+ultimo)
+                print(f"{primeiro}+{ultimo}={somaII}")
+                
+            elif i == 2:
+                segundo = int(somaII[1])
+                somaIII=(primeiro+segundo+ultimo)
+                print(f"{primeiro}+{segundo}+{ultimo}={somaIII}")
+                        
+            elif i == 3:
+                terceiro = int(somaII[2])
+                segundo = int(somaII[1])
+                
+                somaIII = (primeiro+segundo+terceiro+ultimo)
+                print(f"{primeiro}+{segundo}+{terceiro}+{ultimo}={somaIII}")
+                    
+            elif i == 4:
+                quarto = int(somaII[3])
+                terceiro = int(somaII[2])
+                segundo = int(somaII[1])
+                    
+                somaIII = (primeiro+segundo+terceiro+quarto+ultimo)
+                print(f"{primeiro}+{segundo}+{terceiro}+{quarto}+{ultimo}={somaIII}")  
+                
+            elif i == 5:
+                quinto = int(somaII[4])
+                quarto = int(somaII[3])
+                terceiro = int(somaII[2])
+                segundo = int(somaII[1])
+                    
+                somaIII = (primeiro+segundo+terceiro+quarto+quinto+ultimo)
+                print(f"{primeiro}+{segundo}+{terceiro}+{quarto}+{quinto}+{ultimo}={somaIII}")
+                  
+            elif i == 6:
+                sexto = int(somaII[5])
+                quinto = int(somaII[4])
+                quarto = int(somaII[3])
+                terceiro = int(somaII[2])
+                segundo = int(somaII[1])
+                    
+                somaIII = (primeiro+segundo+terceiro+quarto+quinto+sexto+ultimo)
+                print(f"{primeiro}+{segundo}+{terceiro}+{quarto}+{quinto}+{sexto}+{ultimo}={somaIII}")
 
   ### ideias de projetos...
   01 - Uma api de compilador para colocar aqui nesse repositorio... <br>
