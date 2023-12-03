@@ -156,8 +156,8 @@ Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em s
         }          
 
 <br>
+
 > ### 🟢 GERADOR DE DESAFIOS DE PROGRAMAÇÃO. ( Python )
-<a href="https://drive.google.com/file/d/1FLr83BjWxXjLASorpoYgiLaFdgefc3zR/view?usp=drive_link">Link para baixar o EXE</a>
          
     PalavraChave = input("\nFale um assunto para escolhermos um desafio \n-> ")
     LinguagemEscolhida = input("\nLinguagem que deseja usar no codigo \n-> ")
@@ -178,6 +178,8 @@ Um repositorio onde tem de tudo, desde codigos feitos até finalizados, mas em s
         
         print("\nPressione Enter para fechar a janela.")
         input()
+        
+<br>
 
 > ### 🔵 DIGITAL ROOT ( Python )
     a=None
